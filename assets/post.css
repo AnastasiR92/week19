@@ -1,0 +1,38 @@
+.post {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#main-title{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:cornflowerblue;
+}
+
+#post-form{
+    text-align: center;
+}
+
+label{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darkslateblue;
+}
+
+#title {
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+#button-post{
+    height: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    border-radius: 6rem;
+    background-color: lightseagreen;
+    border-color: darkcyan;
+    color: aliceblue;
+}
+

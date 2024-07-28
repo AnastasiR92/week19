@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/post.css" />
+    <link rel="stylesheet" href="assets/normalize.css" />
+    <title>Блог</title>
+  </head>
+  <body>
+    <h1 id="main-title">Новый пост</h1>
+    <form id="post-form">
+      <label for="title">Заголовок:</label>
+      <input type="text" id="title" name="title" />
+      <label for="body-text">Текст:</label>
+      <textarea id="body-text" name="body-text"></textarea>
+      <button type="submit" id="button-post">Добавить пост</button>
+    </form>
+    <div id="posts-container"></div>
+    <script src="post.js"></script>
+  </body>
+</html>
